@@ -37,7 +37,7 @@ The controls are smooth and responsive - hold down keys for continuous movement 
 ## 🛠️ Requirements
 
 - **Processing 4.x** (or Processing 3.x)
-- **OpenGL-compatible graphics card** with GLSL 4.6 support
+- **OpenGL-compatible graphics card** with GLSL 3.3+ support (GLSL 4.6 recommended)
 - **Operating System**: Windows, macOS, or Linux
 
 ## 📥 Installation
@@ -96,7 +96,7 @@ The project consists of two main components:
 frameRate(144);              // Target frame rate
 size(1280,720,P3D);         // Window dimensions
 shader.set("n",1000);       // Maximum iterations
-shader.set("treshold",1000000000.0f); // Divergence threshold
+shader.set("threshold",1000000000.0f); // Divergence threshold
 ```
 
 ### Shader Implementation
